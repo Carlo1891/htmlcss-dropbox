@@ -3,3 +3,58 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+/* Header in fixed e space between */
+
+header {
+    width: 100%;
+}
+
+.top-bar {
+    width: 100%;
+    padding: 20px;
+}
+
+.content-top{
+    justify-content: space-between;
+}
+
+.content,
+.content-top {
+    display: flex;
+}
+
+/* Main impostazioni ed elementi */
+
+/* Header impostazioni ed elementi */
+
+footer {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+.content-bottom {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-bottom > nav ul{
+    flex-direction: column;
+}
+
+.menu.info {
+    padding: 10px;
+    color: white;
+    line-height: 30px;
+}
