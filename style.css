@@ -32,7 +32,42 @@ header {
     display: flex;
 }
 
+.content-top ul li{
+    padding: 0 20px;
+}
+
 /* Main impostazioni ed elementi */
+
+.highlight {
+    width: 100%;
+    background-color: rgb(171, 202, 227);
+    height: 700px;
+}
+
+.jumbotron {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 700px;
+}
+
+.jumbotron-title {
+    width: 100%;
+    font-size: 50px;
+}
+
+.jumbotron-content,
+.jumbotron-text {
+    width: 100%;
+}
+
+.text {
+    width: 40%;
+}
+
+.jumbotron-image{
+    width: 60%;
+}
 
 /* Header impostazioni ed elementi */
 
