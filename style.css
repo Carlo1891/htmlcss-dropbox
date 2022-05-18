@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
-ul {
-    display: flex;
-}
-
 li {
     list-style: none;
+}
+
+.flex {
+    display: flex;
 }
 
 /* Header in fixed e space between */
@@ -39,6 +39,10 @@ header {
     padding: 0 20px;
 }
 
+.menu > ul {
+    display: flex;
+}
+
 /* Main impostazioni ed elementi */
 
 .highlight {
@@ -53,13 +57,13 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     height: 700px;
-    padding: 70px 0 0;
+    padding: 50px 0 0;
 }
 
 .jumbotron-title {
     width: 100%;
-    font-size: 50px;
-    padding-bottom: 50px;
+    font-size: 60px;
+    padding-bottom: 25px;
 }
 
 .jumbotron-content,
@@ -68,22 +72,66 @@ header {
     display: flex;
 }
 
-.text {
-    width: 40%;
+.text p,
+.text i {
+    padding-bottom: 50px;
 }
 
 .jumbotron-image {
-    width: 60%;
+    width: 65%;
 }
 
 .center {
     width: 100%;
-    max-width: 800px;
-    margin: 140px auto;
+    max-width: 900px;
+    margin: 160px auto 80px auto;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+
+.column-plan{
+    margin-top: 50px;
+}
+
+.column {
+    border: 1px solid lightgray;
+}
+
+.column-single,
+.column-team,
+.column-company {
+    border-top: 1px solid lightgray;
+    padding: 10px;
+}
+
+.contact{
+    margin: 40px 0 40px 0;
+}
+
+.menu.contact{
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+.contact-text{
+    width: 60%;
+}
+
+.contact-link {
+    width: 40%;
+    text-align: right;
+}
+
+.partner {
+    width: 70%;
+}
+
+.box-text {
+    width: 30%;
+    padding: 20px;
 }
 
 /* Footer impostazioni ed elementi */
