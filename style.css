@@ -19,11 +19,14 @@ header {
 }
 
 .top-bar {
+    background-color: white;
     width: 100%;
-    padding: 20px;
+    padding: 30px 20px 28px;
+    position: fixed;
+    z-index: 1;
 }
 
-.content-top{
+.content-top {
     justify-content: space-between;
 }
 
@@ -42,6 +45,7 @@ header {
     width: 100%;
     background-color: rgb(171, 202, 227);
     height: 700px;
+    padding-top: 84px;
 }
 
 .jumbotron {
@@ -49,27 +53,40 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     height: 700px;
+    padding: 70px 0 0;
 }
 
 .jumbotron-title {
     width: 100%;
     font-size: 50px;
+    padding-bottom: 50px;
 }
 
 .jumbotron-content,
 .jumbotron-text {
     width: 100%;
+    display: flex;
 }
 
 .text {
     width: 40%;
 }
 
-.jumbotron-image{
+.jumbotron-image {
     width: 60%;
 }
 
-/* Header impostazioni ed elementi */
+.center {
+    width: 100%;
+    max-width: 800px;
+    margin: 140px auto;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+/* Footer impostazioni ed elementi */
 
 footer {
     background-color: rgb(0, 0, 0);
@@ -78,6 +95,7 @@ footer {
 
 .content-bottom {
     margin: 0 auto;
+    padding: 50px 0;
     width: 100%;
     max-width: 1200px;
     display: flex;
@@ -92,4 +110,17 @@ footer {
     padding: 10px;
     color: white;
     line-height: 30px;
+}
+
+.content-bottom-language{
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 100%;
+    max-width: 1200px;
+}
+
+#choose-language {
+    color: rgb(142, 142, 142);
+    padding: 50px 0;
+    border-top: 2px solid white;
 }
