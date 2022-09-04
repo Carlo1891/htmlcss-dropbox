@@ -322,11 +322,11 @@ header ul {
 }
 
 .container-partner > div {
-    padding: 50px;
+    padding: 10px;
 }
 
 .container-partner > div > * {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .button-type-2 {
@@ -580,7 +580,7 @@ footer {
 }
 
 .language {
-    color: #666666;
+    color: #6e6d6d;
     padding: 40px 0;
     font-size: 18px;
 }
